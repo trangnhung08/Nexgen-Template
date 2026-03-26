@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexGen | Technology Solutions</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="../vendor/bootstrap.min.css" rel="stylesheet">
+    <!-- Phosphor Icons (Local Offline) -->
+    <link rel="stylesheet" type="text/css" href="../assets/icons/regular/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/icons/fill/style.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Abstract Background Blurs -->
+    <div class="blur-shape shape-1"></div>
+    <div class="blur-shape shape-2"></div>
+
+    <!-- Header & Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                    <i class="ph-fill ph-hexagon text-primary-custom fs-2"></i>
+                    <span>NexGen<span class="text-primary-custom">.</span></span>
+                </a>
+                <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item fw-bold text-primary-custom" href="services.html">Explore
+                                        All Services</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="service-creative-design.html">Creative UI/UX
+                                        Design</a></li>
+                                <li><a class="dropdown-item" href="service-web-development.html">Web Development</a>
+                                </li>
+                                <li><a class="dropdown-item" href="service-ai-solutions.html">AI & Automation</a></li>
+                                <li><a class="dropdown-item" href="service-brand-identity.html">Brand Identity</a></li>
+                                <li><a class="dropdown-item" href="service-digital-marketing.html">Digital Marketing</a>
+                                </li>
+                                <li><a class="dropdown-item" href="service-cloud-hosting.html">Cloud Hosting</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="d-flex align-items-center gap-3">
+                        <button id="theme-toggle" class="btn btn-link text-muted-custom p-0 text-decoration-none fs-4"
+                            aria-label="Toggle Theme">
+                            <i class="ph ph-moon"></i>
+                        </button>
+                        <a href="sign-in.html" class="btn btn-outline-custom">Sign In</a>
+                        <a href="sign-up.html" class="btn btn-primary-custom">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section pt-5 mt-5 pb-5">
+            <div class="container pt-5 pb-5">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6 text-center text-lg-start animate-on-scroll">
+                        <div
+                            class="badge bg-secondary-custom text-primary-custom px-3 py-2 rounded-pill mb-4 border d-inline-block">
+                            <i class="ph ph-sparkle me-1"></i> Powering Next-Gen Businesses
+                        </div>
+                        <h1 class="display-3 fw-bold mb-4 lh-base">
+                            Empower Your Vision with <span class="gradient-text">Smart Tech</span>
+                        </h1>
+                        <p class="lead text-muted-custom mb-5 pe-lg-5">
+                            We architect high-performance digital ecosystems that merge cutting-edge design with
+                            powerful scalable engineering. Build your future today.
+                        </p>
+                        <div
+                            class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
+                            <a href="services.html" class="btn btn-primary-custom px-4 py-3 shadow-md">
+                                Explore Services <i class="ph ph-arrow-right ms-2"></i>
+                            </a>
+                            <a href="contact.html" class="btn btn-outline-custom px-4 py-3">
+                                Talk to an Expert
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 position-relative animate-on-scroll delay-200">
+                        <!-- High Quality Placeholder representing technology/dashboard -->
+                        <img src="../assets/hero-image.png" alt="Tech Dashboard"
+                            class="img-fluid rounded-4 shadow-lg border"
+                            style="transform: perspective(1000px) rotateY(-5deg);">
+
+                        <!-- Floating highlight card -->
+                        <div class="position-absolute bottom-0 start-0 translate-middle-y bg-main p-3 rounded-3 shadow-lg border card-custom d-none d-md-flex align-items-center gap-3 ms-4"
+                            style="z-index: 2;">
+                            <div class="bg-primary-custom text-white p-2 rounded-circle d-flex align-items-center justify-content-center"
+                                style="width: 48px; height: 48px;">
+                                <i class="ph ph-chart-line-up fs-4"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Growth Driven</h6>
+                                <small class="text-muted-custom">99% uptime guaranteed</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Proof (Logos) -->
+        <section class="py-5 border-top border-bottom bg-secondary-custom animate-on-scroll">
+            <div class="container">
+                <p class="text-center text-muted-custom small fw-semibold text-uppercase tracking-widest mb-4">Trusted
+                    by innovative teams worldwide</p>
+                <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 opacity-75">
+                    <h4 class="fw-bold mb-0 text-muted-custom d-flex align-items-center gap-2"><i
+                            class="ph-fill ph-amazon-logo fs-2"></i> AmzCloud</h4>
+                    <h4 class="fw-bold mb-0 text-muted-custom d-flex align-items-center gap-2"><i
+                            class="ph-fill ph-figma-logo fs-2"></i> FigStudio</h4>
+                    <h4 class="fw-bold mb-0 text-muted-custom d-flex align-items-center gap-2"><i
+                            class="ph-fill ph-meta-logo fs-2"></i> MetaVerse</h4>
+                    <h4 class="fw-bold mb-0 text-muted-custom d-flex align-items-center gap-2"><i
+                            class="ph-fill ph-acorn fs-2"></i> NextCorp</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Services Section -->
+        <section class="py-5 my-5">
+            <div class="container">
+                <div class="row mb-5 animate-on-scroll">
+                    <div class="col-lg-6">
+                        <h2 class="display-5 fw-bold mb-3">Our Core <span class="gradient-text">Capabilities</span></h2>
+                        <p class="text-muted-custom lead">We deliver end-to-end solutions that drive transformation and
+                            accelerate growth for forward-thinking brands.</p>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-lg-end align-items-end mt-4 mt-lg-0">
+                        <a href="services.html" class="btn btn-outline-custom">View All Services <i
+                                class="ph ph-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <!-- Service 1 -->
+                    <div class="col-md-6 col-lg-4 animate-on-scroll delay-100">
+                        <div class="card-custom p-4 h-100 d-flex flex-column">
+                            <div class="icon-wrapper">
+                                <i class="ph ph-paint-brush"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Creative UI/UX Design</h4>
+                            <p class="text-muted-custom flex-grow-1 mb-4">Crafting intuitive, user-centric interfaces
+                                that engage users and elevate your brand identity.</p>
+                            <a href="service-creative-design.html"
+                                class="text-primary-custom fw-semibold text-decoration-none mt-auto">Learn More
+                                &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="col-md-6 col-lg-4 animate-on-scroll delay-200">
+                        <div class="card-custom p-4 h-100 d-flex flex-column">
+                            <div class="icon-wrapper">
+                                <i class="ph ph-code"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Web Development</h4>
+                            <p class="text-muted-custom flex-grow-1 mb-4">Building robust, scalable, and
+                                high-performance web applications using modern stacks.</p>
+                            <a href="service-web-development.html"
+                                class="text-primary-custom fw-semibold text-decoration-none mt-auto">Learn More
+                                &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="col-md-6 col-lg-4 animate-on-scroll delay-300">
+                        <div class="card-custom p-4 h-100 d-flex flex-column">
+                            <div class="icon-wrapper">
+                                <i class="ph ph-robot"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">AI & Automation</h4>
+                            <p class="text-muted-custom flex-grow-1 mb-4">Integrating intelligent AI solutions to
+                                automate workflows and unlock new business insights.</p>
+                            <a href="service-ai-solutions.html"
+                                class="text-primary-custom fw-semibold text-decoration-none mt-auto">Learn More
+                                &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How We Work (Process) Section -->
+        <section class="py-5 bg-secondary-custom">
+            <div class="container py-5">
+                <div class="text-center mb-5 animate-on-scroll">
+                    <h2 class="display-5 fw-bold mb-3">How We <span class="gradient-text">Work</span></h2>
+                    <p class="text-muted-custom mx-auto lead" style="max-width: 600px;">A streamlined, transparent
+                        process designed to turn complex challenges into elegant solutions.</p>
+                </div>
+                <div class="row g-4 position-relative">
+                    <!-- Process Card 1 -->
+                    <div class="col-md-4 animate-on-scroll delay-100">
+                        <div
+                            class="card-custom p-4 p-xl-5 h-100 position-relative overflow-hidden border shadow-sm bg-main">
+
+                            <div class="position-relative z-1">
+                                <div class="icon-wrapper mb-4"
+                                    style="width: 56px; height: 56px; font-size: 24px; border-radius: 12px;">
+                                    <i class="ph ph-magnifying-glass"></i>
+                                </div>
+                                <h4 class="fw-bold mb-3">Discovery & Strategy</h4>
+                                <p class="text-muted-custom mb-0">We analyze your goals, audience, and market to
+                                    formulate a data-driven project roadmap.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Process Card 2 -->
+                    <div class="col-md-4 animate-on-scroll delay-200">
+                        <div
+                            class="card-custom p-4 p-xl-5 h-100 position-relative overflow-hidden border shadow-sm bg-main">
+
+                            <div class="position-relative z-1">
+                                <div class="icon-wrapper mb-4"
+                                    style="width: 56px; height: 56px; font-size: 24px; border-radius: 12px;">
+                                    <i class="ph ph-pen-nib"></i>
+                                </div>
+                                <h4 class="fw-bold mb-3">Design & Build</h4>
+                                <p class="text-muted-custom mb-0">Iterative development sprints bringing the UI/UX to
+                                    life with robust, scalable code.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Process Card 3 -->
+                    <div class="col-md-4 animate-on-scroll delay-300">
+                        <div
+                            class="card-custom p-4 p-xl-5 h-100 position-relative overflow-hidden border shadow-sm bg-main">
+
+                            <div class="position-relative z-1">
+                                <div class="icon-wrapper mb-4"
+                                    style="width: 56px; height: 56px; font-size: 24px; border-radius: 12px;">
+                                    <i class="ph ph-rocket-launch"></i>
+                                </div>
+                                <h4 class="fw-bold mb-3">Launch & Scale</h4>
+                                <p class="text-muted-custom mb-0">Rigorous QA testing, seamless deployment, and ongoing
+                                    technical support.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Carousel Section -->
+        <section class="py-5 my-5 animate-on-scroll">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-5">
+                        <h2 class="display-5 fw-bold mb-4">Don't just take our <span class="gradient-text">word</span>
+                            for it</h2>
+                        <p class="text-muted-custom lead mb-4">See how we've helped companies transform their digital
+                            presence and achieve their business objectives.</p>
+                        <div
+                            class="d-flex gap-3 align-items-center bg-secondary-custom p-3 border rounded-3 d-inline-flex mb-4 mb-lg-0">
+                            <div class="d-flex text-warning">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                    class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                    class="ph-fill ph-star"></i>
+                            </div>
+                            <span class="fw-bold">4.9/5 based on 200+ reviews</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner p-3">
+                                <!-- Testimonial 1 -->
+                                <div class="carousel-item active">
+                                    <div class="testimonial-card">
+                                        <i class="ph-fill ph-quotes fs-1 text-primary-custom opacity-50 mb-4"></i>
+                                        <h4 class="fw-medium lh-base mb-4 text-main">"NexGen completely overhauled our
+                                            platform. Their engineering depth and design sensibility resulted in a 40%
+                                            increase in user engagement within just two months. A premier technology
+                                            partner."</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <img src="../assets/local_img_5.jpg" alt="Sarah Jenkins"
+                                                class="rounded-circle object-fit-cover" width="56" height="56">
+                                            <div>
+                                                <h6 class="fw-bold mb-0">Sarah Jenkins</h6>
+                                                <small class="text-muted-custom">CTO, TechFlow Analytics</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial 2 -->
+                                <div class="carousel-item">
+                                    <div class="testimonial-card">
+                                        <i class="ph-fill ph-quotes fs-1 text-primary-custom opacity-50 mb-4"></i>
+                                        <h4 class="fw-medium lh-base mb-4 text-main">"The team at NexGen brings a rare
+                                            combination of startup agility and enterprise-grade execution. They
+                                            integrated AI tools into our CRM flawlessly, saving us hundreds of hours
+                                            weekly."</h4>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <img src="../assets/local_img_6.jpg" alt="Marcus Chen"
+                                                class="rounded-circle object-fit-cover" width="56" height="56">
+                                            <div>
+                                                <h6 class="fw-bold mb-0">Marcus Chen</h6>
+                                                <small class="text-muted-custom">VP of Operations, NovaBase</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-indicators position-relative">
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Sub block -->
+        <section class="py-5 animate-on-scroll">
+            <div class="container pb-5">
+                <div class="bg-primary-custom text-white rounded-4 p-5 position-relative overflow-hidden">
+                    <div class="position-absolute top-0 end-0 p-5 opacity-25"
+                        style="transform: translate(20%, -20%) scale(2);">
+                        <i class="ph-fill ph-paper-plane-tilt text-white" style="font-size: 200px;"></i>
+                    </div>
+                    <div class="row position-relative z-1 py-4">
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <h2 class="fw-bold mb-3 text-white">Join the innovation loop.</h2>
+                            <p class="text-white-50 mb-0 fs-5">Get exclusive insights, tech trends, and product updates
+                                delivered to your inbox.</p>
+                        </div>
+                        <div class="col-lg-6 d-flex align-items-center">
+                            <form class="w-100 needs-validation" novalidate
+                                onsubmit="event.preventDefault(); alert('Subscribed intentionally disabled for template');">
+                                <div class="input-group input-group-lg bg-white p-1 rounded-pill">
+                                    <input type="email" class="form-control border-0 rounded-pill shadow-none"
+                                        placeholder="Enter your business email" required
+                                        style="color: #1f2937 !important;">
+                                    <button class="btn btn-gradient rounded-pill px-4" type="submit">Subscribe</button>
+                                </div>
+                                <div class="invalid-feedback text-white mt-2 ms-3">Please provide a valid email address.
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-secondary-custom pt-5 pb-4 border-top">
+        <div class="container pt-4">
+            <div class="row g-4 mb-5">
+                <!-- Col 1 -->
+                <div class="col-lg-4 mb-4 mb-lg-0 pe-lg-5">
+                    <a class="navbar-brand d-flex align-items-center gap-2 mb-4" href="index.html">
+                        <i class="ph-fill ph-hexagon text-primary-custom fs-2"></i>
+                        <span class="fs-3 fw-bold text-main">NexGen<span class="text-primary-custom">.</span></span>
+                    </a>
+                    <p class="text-muted-custom mb-4">Empowering businesses through scalable web architecture, intuitive
+                        design, and AI-driven automation. Let's build what's next.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#"
+                            class="btn btn-outline-custom rounded-circle p-2 d-inline-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;"><i class="ph ph-twitter-logo fs-5"></i></a>
+                        <a href="#"
+                            class="btn btn-outline-custom rounded-circle p-2 d-inline-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;"><i class="ph ph-linkedin-logo fs-5"></i></a>
+                        <a href="#"
+                            class="btn btn-outline-custom rounded-circle p-2 d-inline-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;"><i class="ph ph-github-logo fs-5"></i></a>
+                    </div>
+                </div>
+                <!-- Col 2 -->
+                <div class="col-sm-6 col-lg-2">
+                    <h5 class="fw-bold mb-4">Company</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="portfolio.html" class="footer-link">Our Work</a></li>
+                        <li><a href="careers.html" class="footer-link">Careers</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Col 3 -->
+                <div class="col-sm-6 col-lg-3">
+                    <h5 class="fw-bold mb-4">Services</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="service-creative-design.html" class="footer-link">Creative UI/UX Design</a></li>
+                        <li><a href="service-web-development.html" class="footer-link">Web Development</a></li>
+                        <li><a href="service-ai-solutions.html" class="footer-link">AI & Automation</a></li>
+                        <li><a href="services.html" class="footer-link text-primary-custom fw-semibold">View All
+                                Services &rarr;</a></li>
+                    </ul>
+                </div>
+                <!-- Col 4 -->
+                <div class="col-lg-3">
+                    <h5 class="fw-bold mb-4">Contact</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="d-flex gap-3 mb-3 text-muted-custom">
+                            <i class="ph ph-map-pin fs-5 text-primary-custom"></i>
+                            <span>123 Innovation Drive,<br>Tech District, NY 10001</span>
+                        </li>
+                        <li class="d-flex gap-3 mb-3 text-muted-custom">
+                            <i class="ph ph-phone fs-5 text-primary-custom"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li class="d-flex gap-3 text-muted-custom">
+                            <i class="ph ph-envelope-simple fs-5 text-primary-custom"></i>
+                            <span>hello@nexgen.agency</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row pt-4 border-top align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="text-muted-custom small mb-0">&copy; 2024 NexGen Technology. All rights reserved.</p>
+                </div>
+                <div
+                    class="col-md-6 text-center text-md-end d-flex justify-content-center justify-content-md-end gap-4">
+                    <a href="privacy.html" class="text-muted-custom small text-decoration-none hover-primary">Privacy
+                        Policy</a>
+                    <a href="terms.html" class="text-muted-custom small text-decoration-none hover-primary">Terms of
+                        Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="../vendor/bootstrap.bundle.js"></script>
+    <!-- Custom script with IntersectionObserver & theme rules -->
+    <script src="../script/script.js"></script>
+</body>
+
+</html>
