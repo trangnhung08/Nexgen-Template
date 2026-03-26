@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy | 404 Not Found</title>
+    <title>Services | NexGen</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-    <!-- Google Fonts -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <!-- Google Fonts: Plus Jakarta Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Bootstrap 5 -->
+    <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Phosphor Icons (Local Offline) -->
-    <link rel="stylesheet" type="text/css" href="../assets/icons/regular/style.css">
-    <link rel="stylesheet" type="text/css" href="../assets/icons/fill/style.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/icons/regular/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/icons/fill/style.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="d-flex flex-column min-vh-100">
+<body>
+    <!-- Abstract Background Blurs -->
+    <div class="blur-shape shape-1"></div>
+    <div class="blur-shape shape-2"></div>
+
     <!-- Header & Navbar -->
     <header>
         <nav class="navbar navbar-expand-lg fixed-top">
@@ -62,26 +67,106 @@
         </nav>
     </header>
 
-    <main class="flex-grow-1 d-flex flex-column justify-content-center pt-5">
-        <section class="py-5 text-center px-3">
-            <div class="container animate-on-scroll">
-                <div class="mb-4">
-                    <i class="ph-fill ph-file-dashed text-primary-custom opacity-50" style="font-size: 150px; line-height: 1;"></i>
+    <main>
+        <!-- Page Header -->
+        <section class="page-header text-center border-bottom animate-on-scroll">
+            <div class="container position-relative z-1">
+                <h1 class="display-4 fw-bold mb-3">Our <span class="gradient-text">Services</span></h1>
+                <p class="lead text-muted-custom mx-auto" style="max-width: 700px;">Comprehensive digital solutions engineered to accelerate growth, optimize efficiency, and elevate your brand presence globally.</p>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section class="py-5 my-5">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Service 1 -->
+                    <div class="col-md-6 col-lg-4 animate-on-scroll delay-100">
+                        <div class="card-custom p-4 p-xl-5 h-100 d-flex flex-column bg-main border shadow-sm">
+                            <div class="icon-wrapper mb-4 border" style="width: 56px; height: 56px; font-size: 24px; border-radius: 12px; background: var(--bg-main); color: var(--primary-color);">
+                                <i class="ph ph-paint-brush"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Creative UI/UX Design</h4>
+                            <p class="text-muted-custom flex-grow-1 mb-4">Crafting intuitive, user-centric interfaces that engage users, decrease bounce rates, and elevate your brand identity.</p>
+                            <a href="service-creative-design.html" class="btn btn-outline-custom mt-auto w-100">Learn More</a>
+                        </div>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="col-md-6 col-lg-4 animate-on-scroll delay-200">
+                        <div class="card-custom p-4 p-xl-5 h-100 d-flex flex-column bg-main border shadow-sm">
+                            <div class="icon-wrapper mb-4 border" style="width: 56px; height: 56px; font-size: 24px; border-radius: 12px; background: var(--bg-main); color: var(--primary-color);">
+                                <i class="ph ph-code"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Web Development</h4>
+                            <p class="text-muted-custom flex-grow-1 mb-4">Building robust, scalable, and high-performance web applications using modern stacks like React, Node.js, and more.</p>
+                            <a href="service-web-development.html" class="btn btn-outline-custom mt-auto w-100">Learn More</a>
+                        </div>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="col-md-6 col-lg-4 animate-on-scroll delay-300">
+                        <div class="card-custom p-4 p-xl-5 h-100 d-flex flex-column bg-main border shadow-sm">
+                            <div class="icon-wrapper mb-4 border" style="width: 56px; height: 56px; font-size: 24px; border-radius: 12px; background: var(--bg-main); color: var(--primary-color);">
+                                <i class="ph ph-robot"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">AI & Automation</h4>
+                            <p class="text-muted-custom flex-grow-1 mb-4">Integrating intelligent AI solutions to automate workflows, personalize customer interactions, and unlock business insights.</p>
+                            <a href="service-ai-solutions.html" class="btn btn-outline-custom mt-auto w-100">Learn More</a>
+                        </div>
+                    </div>
+                    <!-- Service 4 -->
+                    <div class="col-md-6 col-lg-4 animate-on-scroll delay-100">
+                        <div class="card-custom p-4 p-xl-5 h-100 d-flex flex-column bg-main border shadow-sm">
+                            <div class="icon-wrapper mb-4 border" style="width: 56px; height: 56px; font-size: 24px; border-radius: 12px; background: var(--bg-main); color: var(--primary-color);">
+                                <i class="ph ph-fingerprint"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Brand Identity</h4>
+                            <p class="text-muted-custom flex-grow-1 mb-4">Developing compelling brand strategies, comprehensive guidelines, and visual identities that resonate with your audience.</p>
+                            <a href="service-brand-identity.html" class="btn btn-outline-custom mt-auto w-100">Learn More</a>
+                        </div>
+                    </div>
+                    <!-- Service 5 -->
+                    <div class="col-md-6 col-lg-4 animate-on-scroll delay-200">
+                        <div class="card-custom p-4 p-xl-5 h-100 d-flex flex-column bg-main border shadow-sm">
+                            <div class="icon-wrapper mb-4 border" style="width: 56px; height: 56px; font-size: 24px; border-radius: 12px; background: var(--bg-main); color: var(--primary-color);">
+                                <i class="ph ph-trend-up"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Digital Marketing</h4>
+                            <p class="text-muted-custom flex-grow-1 mb-4">Data-driven marketing campaigns, technical SEO, and paid strategies to drive high-quality traffic and conversions.</p>
+                            <a href="service-digital-marketing.html" class="btn btn-outline-custom mt-auto w-100">Learn More</a>
+                        </div>
+                    </div>
+                    <!-- Service 6 -->
+                    <div class="col-md-6 col-lg-4 animate-on-scroll delay-300">
+                        <div class="card-custom p-4 p-xl-5 h-100 d-flex flex-column bg-main border shadow-sm">
+                            <div class="icon-wrapper mb-4 border" style="width: 56px; height: 56px; font-size: 24px; border-radius: 12px; background: var(--bg-main); color: var(--primary-color);">
+                                <i class="ph ph-cloud-arrow-up"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Cloud & Hosting</h4>
+                            <p class="text-muted-custom flex-grow-1 mb-4">Secure, scalable cloud infrastructure and deployment architectures using AWS, Azure, or Google Cloud Platform.</p>
+                            <a href="service-cloud-hosting.html" class="btn btn-outline-custom mt-auto w-100">Learn More</a>
+                        </div>
+                    </div>
                 </div>
-                <h1 class="display-1 fw-bold text-main mb-3" style="font-size: 5rem;">404</h1>
-                <h2 class="display-5 fw-bold mb-4">Privacy Policy</h2>
-                <p class="lead text-muted-custom mx-auto mb-5" style="max-width: 500px;">
-                    This page is currently under development or the content you are looking for has been moved. Please check back later.
-                </p>
-                <a href="index.html" class="btn btn-primary-custom px-4 py-3 rounded-pill shadow-sm d-inline-flex align-items-center gap-2">
-                    <i class="ph ph-arrow-left"></i> Back to Homepage
-                </a>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-5 mb-5 animate-on-scroll">
+            <div class="container">
+                <div class="bg-primary-custom text-white rounded-4 p-5 text-center position-relative overflow-hidden">
+                    <div class="blur-shape shape-1" style="background: #FF9800; top: 0; left: 0;"></div>
+                    <div class="position-relative z-1 py-4">
+                        <h2 class="display-6 fw-bold mb-4 text-white">Ready to transform your digital presence?</h2>
+                        <p class="lead text-white-50 mb-4 mx-auto" style="max-width: 600px;">Let's discuss how our multidisciplinary team can bring your vision into reality.</p>
+                        <a href="contact.html" class="btn btn-gradient px-5 py-3 fs-5">Schedule a Consultation</a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-secondary-custom pt-5 pb-4 border-top mt-auto">
+    <footer class="bg-secondary-custom pt-5 pb-4 border-top">
         <div class="container pt-4">
             <div class="row g-4 mb-5">
                 <div class="col-lg-4 mb-4 mb-lg-0 pe-lg-5">
@@ -96,7 +181,6 @@
                         <a href="#" class="btn btn-outline-custom rounded-circle p-2 d-inline-flex align-items-center justify-content-center" style="width: 40px; height: 40px;"><i class="ph ph-github-logo fs-5"></i></a>
                     </div>
                 </div>
-                <!-- Col 2 -->
                 <div class="col-sm-6 col-lg-2">
                     <h5 class="fw-bold mb-4">Company</h5>
                     <ul class="list-unstyled mb-0">
@@ -106,7 +190,6 @@
                         <li><a href="contact.html" class="footer-link">Contact</a></li>
                     </ul>
                 </div>
-                <!-- Col 3 -->
                 <div class="col-sm-6 col-lg-3">
                     <h5 class="fw-bold mb-4">Services</h5>
                     <ul class="list-unstyled mb-0">
@@ -116,7 +199,6 @@
                         <li><a href="services.html" class="footer-link text-primary-custom fw-semibold">View All Services &rarr;</a></li>
                     </ul>
                 </div>
-                <!-- Col 4 -->
                 <div class="col-lg-3">
                     <h5 class="fw-bold mb-4">Contact</h5>
                     <ul class="list-unstyled mb-0">
@@ -148,6 +230,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../script/script.js"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>

@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Work | NexGen</title>
+    <title>About Us | NexGen</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-    <!-- Google Fonts -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <!-- Google Fonts: Plus Jakarta Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Bootstrap 5 -->
+    <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Phosphor Icons (Local Offline) -->
-    <link rel="stylesheet" type="text/css" href="../assets/icons/regular/style.css">
-    <link rel="stylesheet" type="text/css" href="../assets/icons/fill/style.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/icons/regular/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/icons/fill/style.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="blur-shape shape-1" style="background: #2196F3;"></div>
-    <div class="blur-shape shape-2"></div>
+    <!-- Abstract Background Blurs -->
+    <div class="blur-shape shape-1"></div>
+    <div class="blur-shape shape-2" style="background: #2196F3; opacity: 0.1;"></div>
 
+    <!-- Header & Navbar -->
     <header>
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
@@ -34,7 +37,7 @@
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Services
@@ -65,85 +68,123 @@
     </header>
 
     <main>
+        <!-- Page Header -->
         <section class="page-header text-center border-bottom animate-on-scroll">
             <div class="container position-relative z-1">
-                <h1 class="display-4 fw-bold mb-3">Our <span class="gradient-text">Work</span></h1>
-                <p class="lead text-muted-custom mx-auto" style="max-width: 700px;">Explore a selection of our most innovative projects, demonstrating our commitment to cutting-edge design and engineering excellence.</p>
+                <h1 class="display-4 fw-bold mb-3">About <span class="gradient-text">NexGen</span></h1>
+                <p class="lead text-muted-custom mx-auto" style="max-width: 700px;">We are a team of passionate engineers, designers, and strategists committed to pushing the boundaries of what's possible on the web.</p>
             </div>
         </section>
 
-        <!-- Portfolio Grid -->
+        <!-- Our Story & Mission -->
         <section class="py-5 my-5">
             <div class="container">
-                <!-- Filters -->
-                <div class="d-flex flex-wrap justify-content-center gap-2 gap-md-3 mb-5 animate-on-scroll">
-                    <button class="btn btn-primary-custom rounded-pill px-4">All Projects</button>
-                    <button class="btn btn-outline-custom rounded-pill px-4 border">UI/UX Design</button>
-                    <button class="btn btn-outline-custom rounded-pill px-4 border">Web Development</button>
-                    <button class="btn btn-outline-custom rounded-pill px-4 border">Branding</button>
-                </div>
-
-                <div class="row g-4">
-                    <!-- Project 1 -->
-                    <div class="col-md-6 animate-on-scroll delay-100">
-                        <div class="card-custom border overflow-hidden position-relative group bg-main h-100 shadow-sm">
-                            <img src="../assets/local_img_7.jpg" alt="FinTech Dashboard" class="img-fluid w-100 object-fit-cover" style="height: 300px; transition: transform 0.5s;">
-                            <div class="p-4 p-xl-5 position-relative bg-main border-top z-1" style="margin-top: -20px; border-radius: 1rem 1rem 0 0;">
-                                <span class="badge bg-primary-custom text-white mb-3">UI/UX Design</span>
-                                <h3 class="fw-bold mb-3">Quantum FinTech Dashboard</h3>
-                                <p class="text-muted-custom mb-4">A complete redesign of a leading financial analytics platform, improving data visualization clarity and boosting user engagement by 45%.</p>
-                                <a href="#" class="btn btn-link text-primary-custom text-decoration-none fw-bold p-0 d-inline-flex align-items-center gap-2 hover-primary">View Case Study <i class="ph ph-arrow-right"></i></a>
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6 animate-on-scroll">
+                        <img src="assets/local_img_1.jpg" alt="Our Team Collaboration" class="img-fluid rounded-4 shadow-lg border">
+                    </div>
+                    <div class="col-lg-6 animate-on-scroll delay-200">
+                        <h6 class="text-primary-custom text-uppercase fw-bold tracking-widest mb-2">Our Story</h6>
+                        <h2 class="display-6 fw-bold mb-4">Driving Digital Evolution Since 2018</h2>
+                        <p class="text-muted-custom mb-4">Born from a simple idea to make enterprise-grade digital solutions accessible, NexGen has grown into a global agency. We believe in writing clean code, designing intuitive interfaces, and fostering long-term partnerships with our clients.</p>
+                        
+                        <div class="row g-4 mt-2">
+                            <div class="col-6">
+                                <h3 class="fw-bold gradient-text mb-1">50+</h3>
+                                <p class="text-muted-custom mb-0">Team Members</p>
+                            </div>
+                            <div class="col-6">
+                                <h3 class="fw-bold gradient-text mb-1">200+</h3>
+                                <p class="text-muted-custom mb-0">Projects Delivered</p>
                             </div>
                         </div>
                     </div>
-                    <!-- Project 2 -->
-                    <div class="col-md-6 animate-on-scroll delay-200">
-                        <div class="card-custom border overflow-hidden position-relative group bg-main h-100 shadow-sm">
-                            <img src="../assets/local_img_8.jpg" alt="E-Commerce Platform" class="img-fluid w-100 object-fit-cover" style="height: 300px; transition: transform 0.5s;">
-                            <div class="p-4 p-xl-5 position-relative bg-main border-top z-1" style="margin-top: -20px; border-radius: 1rem 1rem 0 0;">
-                                <span class="badge bg-primary-custom text-white mb-3">Web Development</span>
-                                <h3 class="fw-bold mb-3">Aura Headless E-Commerce</h3>
-                                <p class="text-muted-custom mb-4">An ultra-fast, headless e-commerce storefront built with Next.js and Shopify, resulting in sub-second load times and a 30% increase in checkout conversions.</p>
-                                <a href="#" class="btn btn-link text-primary-custom text-decoration-none fw-bold p-0 d-inline-flex align-items-center gap-2 hover-primary">View Case Study <i class="ph ph-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project 3 -->
-                    <div class="col-md-6 animate-on-scroll delay-100">
-                        <div class="card-custom border overflow-hidden position-relative group bg-main h-100 shadow-sm">
-                            <img src="../assets/local_img_9.jpg" alt="Brand Identity" class="img-fluid w-100 object-fit-cover" style="height: 300px; transition: transform 0.5s;">
-                            <div class="p-4 p-xl-5 position-relative bg-main border-top z-1" style="margin-top: -20px; border-radius: 1rem 1rem 0 0;">
-                                <span class="badge bg-primary-custom text-white mb-3">Branding</span>
-                                <h3 class="fw-bold mb-3">Lumina Health Rebrand</h3>
-                                <p class="text-muted-custom mb-4">Crafted a completely new visual identity, logo, and design system for a nationwide healthcare provider to reflect modern, approachable care.</p>
-                                <a href="#" class="btn btn-link text-primary-custom text-decoration-none fw-bold p-0 d-inline-flex align-items-center gap-2 hover-primary">View Case Study <i class="ph ph-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project 4 -->
-                    <div class="col-md-6 animate-on-scroll delay-200">
-                        <div class="card-custom border overflow-hidden position-relative group bg-main h-100 shadow-sm">
-                            <img src="../assets/local_img_10.jpg" alt="SaaS Web App" class="img-fluid w-100 object-fit-cover" style="height: 300px; transition: transform 0.5s;">
-                            <div class="p-4 p-xl-5 position-relative bg-main border-top z-1" style="margin-top: -20px; border-radius: 1rem 1rem 0 0;">
-                                <span class="badge bg-primary-custom text-white mb-3">Web Development & AI</span>
-                                <h3 class="fw-bold mb-3">Nexus AI Automation</h3>
-                                <p class="text-muted-custom mb-4">Developed an intelligent SaaS platform that automates HR supply chains using custom LLMs, saving enterpise clients 100+ hours monthly.</p>
-                                <a href="#" class="btn btn-link text-primary-custom text-decoration-none fw-bold p-0 d-inline-flex align-items-center gap-2 hover-primary">View Case Study <i class="ph ph-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="text-center mt-5 pt-4">
-                    <button class="btn btn-outline-custom rounded-pill px-5 py-3 fw-bold">Load More Projects</button>
                 </div>
             </div>
         </section>
 
-        <section class="py-5 bg-secondary-custom mb-5">
-            <div class="container text-center py-5">
-                <h3 class="fw-bold mb-4 animate-on-scroll">Ready to build something amazing?</h3>
-                <a href="contact.html" class="btn btn-primary-custom px-5 py-3 fs-5 animate-on-scroll delay-100">Let's Talk</a>
+        <!-- Core Values -->
+        <section class="py-5 bg-secondary-custom">
+            <div class="container py-5">
+                <div class="text-center mb-5 animate-on-scroll">
+                    <h2 class="display-5 fw-bold mb-3">Our Core <span class="gradient-text">Values</span></h2>
+                    <p class="text-muted-custom mx-auto lead" style="max-width: 600px;">The principles that guide our decisions, our code, and our culture.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3 animate-on-scroll delay-100">
+                        <div class="card-custom p-4 h-100 text-center bg-main">
+                            <i class="ph-fill ph-lightbulb fs-1 text-primary-custom mb-4"></i>
+                            <h4 class="fw-bold mb-3">Innovation</h4>
+                            <p class="text-muted-custom mb-0">We embrace the latest technologies to build future-proof solutions.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 animate-on-scroll delay-200">
+                        <div class="card-custom p-4 h-100 text-center bg-main">
+                            <i class="ph-fill ph-handshake fs-1 text-primary-custom mb-4"></i>
+                            <h4 class="fw-bold mb-3">Integrity</h4>
+                            <p class="text-muted-custom mb-0">Transparency and honesty in every client interaction and line of code.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 animate-on-scroll delay-300">
+                        <div class="card-custom p-4 h-100 text-center bg-main">
+                            <i class="ph-fill ph-medal fs-1 text-primary-custom mb-4"></i>
+                            <h4 class="fw-bold mb-3">Excellence</h4>
+                            <p class="text-muted-custom mb-0">We never settle for "good enough". Our standard is world-class.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 animate-on-scroll delay-400">
+                        <div class="card-custom p-4 h-100 text-center bg-main">
+                            <i class="ph-fill ph-users-three fs-1 text-primary-custom mb-4"></i>
+                            <h4 class="fw-bold mb-3">Collaboration</h4>
+                            <p class="text-muted-custom mb-0">Great products are built by teams who communicate and support each other.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Meet the Team -->
+        <section class="py-5 my-5">
+            <div class="container">
+                <div class="text-center mb-5 animate-on-scroll">
+                    <h2 class="display-5 fw-bold mb-3">Meet The <span class="gradient-text">Minds</span></h2>
+                    <p class="text-muted-custom mx-auto lead" style="max-width: 600px;">The brilliant people behind the screens who make the magic happen.</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <!-- Team Member 1 -->
+                    <div class="col-md-6 col-lg-4 animate-on-scroll delay-100">
+                        <div class="card-custom d-flex flex-column h-100 text-center p-4 border bg-main">
+                            <div class="mb-4">
+                                <img src="assets/local_img_2.jpg" alt="CEO" class="rounded-circle object-fit-cover shadow-sm border p-1" width="120" height="120">
+                            </div>
+                            <h4 class="fw-bold mb-1">Alex Harper</h4>
+                            <p class="text-primary-custom fw-semibold mb-3">Founder & CEO</p>
+                            <p class="text-muted-custom px-3 flex-grow-1 mb-0">Visionary leader guiding the company strategy and fostering our culture of innovation.</p>
+                        </div>
+                    </div>
+                    <!-- Team Member 2 -->
+                    <div class="col-md-6 col-lg-4 animate-on-scroll delay-200">
+                        <div class="card-custom d-flex flex-column h-100 text-center p-4 border bg-main">
+                            <div class="mb-4">
+                                <img src="assets/local_img_3.jpg" alt="Lead Designer" class="rounded-circle object-fit-cover shadow-sm border p-1" width="120" height="120">
+                            </div>
+                            <h4 class="fw-bold mb-1">Elena Rostova</h4>
+                            <p class="text-primary-custom fw-semibold mb-3">Head of Design</p>
+                            <p class="text-muted-custom px-3 flex-grow-1 mb-0">Master of UI/UX, ensuring every product we ship is incredibly intuitive and beautiful.</p>
+                        </div>
+                    </div>
+                    <!-- Team Member 3 -->
+                    <div class="col-md-6 col-lg-4 animate-on-scroll delay-300">
+                        <div class="card-custom d-flex flex-column h-100 text-center p-4 border bg-main">
+                            <div class="mb-4">
+                                <img src="assets/local_img_4.jpg" alt="Lead Engineer" class="rounded-circle object-fit-cover shadow-sm border p-1" width="120" height="120">
+                            </div>
+                            <h4 class="fw-bold mb-1">David Chen</h4>
+                            <p class="text-primary-custom fw-semibold mb-3">VP of Engineering</p>
+                            <p class="text-muted-custom px-3 flex-grow-1 mb-0">Technical architect leading our development teams to build scalable infrastructure.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -167,8 +208,8 @@
                 <div class="col-sm-6 col-lg-2">
                     <h5 class="fw-bold mb-4">Company</h5>
                     <ul class="list-unstyled mb-0">
-                        <li><a href="about.html" class="footer-link">About Us</a></li>
-                        <li><a href="portfolio.html" class="footer-link text-primary-custom fw-semibold">Our Work</a></li>
+                        <li><a href="about.html" class="footer-link text-primary-custom fw-semibold">About Us</a></li>
+                        <li><a href="portfolio.html" class="footer-link">Our Work</a></li>
                         <li><a href="careers.html" class="footer-link">Careers</a></li>
                         <li><a href="contact.html" class="footer-link">Contact</a></li>
                     </ul>
@@ -213,6 +254,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../script/script.js"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>
